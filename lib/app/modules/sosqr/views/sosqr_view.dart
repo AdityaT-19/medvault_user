@@ -10,14 +10,29 @@ class SosqrView extends GetView<SosqrController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('SosqrView'),
+        title: const Text('Emergency!!'),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Text(
-          'SosqrView is working',
-          style: TextStyle(fontSize: 20),
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          const Center(
+            child: Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(
+                "Don't Panic- Scan to get Patient Details",
+                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold,),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.blue,
+            height: 260,
+            width: 260,
+          ),
+        ],
       ),
     );
   }
