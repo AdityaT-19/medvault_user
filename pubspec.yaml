@@ -13,6 +13,7 @@ dependencies:
   animate_do: 3.3.3
   flutter:
     sdk: flutter
+  qr_flutter: ^4.1.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0

@@ -31,12 +31,12 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.SOSQR,
-      page: () => const SosqrView(),
+      page: () => SosqrView(),
       binding: SosqrBinding(),
     ),
     GetPage(
       name: _Paths.DASHBOARD,
-      page: () => const DashboardView(),
+      page: () => DashboardView(),
       binding: DashboardBinding(),
     ),
     GetPage(
